@@ -1,3 +1,30 @@
+//Reset
+@import "vendor/reset";
+
+//base
+@import "base/variables";
+@import "base/typography";
+
+//regions
+@import "regions/home";
+
 * {
   color: blue;
+}
+
+.universalHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &__logo{
+    width: 60vw;
+  }
+
+   &__navbar{
+     display: flex;
+     justify-content: space-around;
+     width: 100%
+   }
 }

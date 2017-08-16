@@ -10,7 +10,10 @@ class Blog extends Component{
 
   render(){
     return(
-      <h1> This is the blog page </h1>
+      <div className="blog">
+        <h1> This is the blog page </h1>
+        <img style={{height: 200, width: 200}} src="/images/test.jpg" />
+      </div>
     )
   }
 }
